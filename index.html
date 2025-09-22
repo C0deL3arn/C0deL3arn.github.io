@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeLearn</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="profile.html">Profile</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="login.html">Login</a>
+  </div>
+
+  <div class="container glass">
+    <h1>Welcome to CodeLearn</h1>
+    <p>Select your skill level to get started:</p>
+    <div class="skill-buttons">
+      <button onclick="setSkill('beginner')">Beginner</button>
+      <button onclick="setSkill('intermediate')">Intermediate</button>
+      <button onclick="setSkill('advanced')">Advanced</button>
+    </div>
+
+    <h2>Choose a language track:</h2>
+    <div class="language-buttons">
+      <a href="lessons.html?lang=html">HTML/CSS</a>
+      <a href="lessons.html?lang=js">JavaScript</a>
+      <a href="lessons.html?lang=python">Python</a>
+      <a href="lessons.html?lang=react">React</a>
+    </div>
+  </div>
+</body>
+</html>
